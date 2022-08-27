@@ -1,6 +1,6 @@
-import { Container, Row, Col, Button } from "react-dom";
+import { Container, Row, Col, Button } from "react-bootstrap";
 
-function carsewa(){
+function Carsewa(){
     return(
         <Container id="carsewa">
             <Row>
@@ -15,4 +15,4 @@ function carsewa(){
         </Container>
     );
 }
-export default carsewa;
+export default Carsewa;

@@ -1,7 +1,7 @@
-import { Container, Row, Col, Button } from "react-dom";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import carImg from "../image/carbaner.png";
 import {Link} from "react-router-dom";
-function banner (){
+function Banner (){
     return(
         <Container fluid style={{ backgroundColor: "#F1F3FF" }}>
           <Row>
@@ -21,4 +21,4 @@ function banner (){
         </Container>
       );
 }
-export default banner;
+export default Banner;

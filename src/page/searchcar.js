@@ -1,15 +1,16 @@
 import ContentCariMobil from "../componen/cari";
-import navbar from "../componen/navbar";
-import banner from "../componen/banner";
-import footer from "../componen/footer";
+import Navbar from "../componen/navbar";
+import Banner from "../componen/banner";
+import Footer from "../componen/footer";
 
 function SearchCar() {
     return(
         <>
+        <Navbar/>
+        <Banner/>
         <ContentCariMobil/>
-        <banner/>
-        <footer/>
-        <navbar/>
+        <Footer/>
+        
         </>
     )
 }

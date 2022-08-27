@@ -1,6 +1,6 @@
-import navbar from "../componen/navbar";
-import footer from "../componen/footer";
-import cardetails from "../componen/carsdetail";
+
+import Footer from "../componen/footer";
+import Cardetails from "../componen/carsdetail";
 import { Navbar, Nav, Offcanvas, Container } from "react-bootstrap";
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
@@ -42,8 +42,8 @@ function Detail() {
           </Navbar.Offcanvas>
         </Container>
       </Navbar>
-      <cardetails mobil={mobil} />
-      <footer />
+      <Cardetails mobil={mobil} />
+      <Footer />
     </>
   );
 }

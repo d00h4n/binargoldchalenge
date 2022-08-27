@@ -1,6 +1,6 @@
 import { Container, Row, Col, Accordion } from "react-bootstrap";
 
-function faq () {
+function Faq () {
     return(
         <Container id="faq">
       <Row>
@@ -38,4 +38,4 @@ function faq () {
 
 }
 
-export default faq;
+export default Faq;

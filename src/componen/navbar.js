@@ -1,6 +1,6 @@
 import { Navbar, Nav, Offcanvas, Container } from "react-bootstrap";
 import "../App.css";
-function navbar() {
+function Navbar1() {
     return(
         <Navbar key={"md"} expand={"md"} style={{ backgroundColor: "#F1F3FF" }}>
         <Container>
@@ -27,4 +27,4 @@ function navbar() {
     );
 }
 
-export default navbar;
+export default Navbar1;

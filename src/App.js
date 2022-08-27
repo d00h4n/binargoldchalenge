@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-
 import SearchCar from './page/searchcar';
 import Home from './page/Home';
 import Detail from './page/list';

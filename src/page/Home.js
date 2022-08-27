@@ -1,26 +1,26 @@
-import cardetails from "../componen/carsdetail";
-import carsewa from "../componen/carsewa";
-import navbar from "../componen/navbar";
-import banner from "../componen/banner";
-import faq from "../componen/faq";
-import testis from "../componen/testis";
-import footer from "../componen/footer";
-import service from "../componen/service";
-import whyus from "../componen/whyus";
+import Cardetails from "../componen/carsdetail";
+import Carsewa from "../componen/carsewa";
+import Navbar from "../componen/navbar";
+import Banner from "../componen/banner";
+import Faq from "../componen/faq";
+import Testis from "../componen/testis";
+import Footer from "../componen/footer";
+import Service from "../componen/service";
+import Whyus from "../componen/whyus";
 
-function home() {
+function Home() {
     return (
 <>
-        <cardetails />
-        <carsewa />
-        <navbar />
-        <banner />
-        <faq />
-        <testis />
-        <footer />
-        <service />
-        <whyus />
+        <Navbar />
+        <Banner />
+        <Cardetails />
+        <Service />
+        <Whyus />
+        <Testis />
+        <Carsewa />
+        <Faq />
+        <Footer />
         </>
     );
 }
-export default home;
+export default Home;

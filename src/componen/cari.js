@@ -2,7 +2,7 @@ import { Container, Card, Col, Button, Form, Row } from "react-bootstrap";
 import React, { useState, useEffect } from "react";
 import Select from "react-select";
 import axios from "axios";
-import HasilCard from "./hasilCard";
+import Hasilcari from "./hasilcari"
 
 
 const ContentCariMobil = () => {
@@ -104,7 +104,7 @@ const ContentCariMobil = () => {
         </Card>
       </Container>
       <Container>
-      <Row>{result && result.map((item) => <HasilCard key={item.id} item={item} />)}</Row>
+      <Row>{result && result.map((item) => <Hasilcari key={item.id} item={item} />)}</Row>
       </Container>
     </>
   );

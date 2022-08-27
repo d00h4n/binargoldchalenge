@@ -1,12 +1,13 @@
 import { Container, Row, Col, Nav } from "react-bootstrap";
 import icon1 from "../image/facebook.png"
-import icon2 from "../image/facebook.png"
-import icon3 from "../image/facebook.png"
-import icon4 from "../image/facebook.png"
-import icon5 from "../image/facebook.png"
+import icon2 from "../image/instagram.png"
+import icon3 from "../image/mail.png"
+import icon4 from "../image/twitter.png"
+import icon5 from "../image/twitch.png"
+import logo from "../image/logo.png"
 
 
-function footer() {
+function Footer() {
     return (
       <Container>
         <Row className="footerrow">
@@ -45,4 +46,4 @@ function footer() {
       </Container>
     );
   }
-  export default footer;
+  export default Footer;

@@ -1,6 +1,6 @@
 import { Container, Card, Col, Form, Row,  Accordion } from "react-bootstrap";
 import Select from "react-select";
-import navbar from "./navbar";
+
 
 
 const customStyles = {
@@ -30,7 +30,7 @@ const customStyles = {
     paddingLeft: "0px",
   };
   
-  const cardetails = ({ mobil }) => {
+  const Cardetails = ({ mobil = {} }) => {
     return (
       <Container style={{ marginTop: "-70px", marginBottom: "152px" }}>
         <Card className=" mb-3">
@@ -108,7 +108,7 @@ const customStyles = {
               <Card.Img className="p-4" variant="top" src={mobil.image} alt="Gambar tidak tersedia" />
               <Card.Body>
                 <Card.Title>{mobil.name}</Card.Title>
-                <Card.Subtitle style={styleP1}>{mobil.category}</Card.Subtitle>
+                <Card.Subtitle >{mobil.category}</Card.Subtitle>
   
                 <Col className="d-flex justify-content-between fw-bold mt-3">
                   <Card.Text className="start-0">Total </Card.Text>
@@ -121,4 +121,4 @@ const customStyles = {
       </Container>
     );
   };
-  export default cardetails;
+  export default Cardetails;

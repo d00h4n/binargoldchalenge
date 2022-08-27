@@ -2,7 +2,7 @@ import { Card, Button, Col } from "react-bootstrap";
 import React from "react";
 import { useHistory } from "react-router-dom";
 
-const hasilcari = ({ item }) => {
+const Hasilcari = ({ item }) => {
     const navigate = useHistory();
     const handleKlik = () => {
       navigate.push(`/Detail/${item.id}`);
@@ -23,4 +23,4 @@ const hasilcari = ({ item }) => {
     );
   };
   
-  export default hasilcari;
+  export default Hasilcari;

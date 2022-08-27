@@ -2,7 +2,7 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 import girlimg from "../image/service.png";
 import ceklis from "../image/list.png";
 
-function service() {
+function Service() {
     return (
       <Container id="ourservice">
         <Row>
@@ -35,4 +35,4 @@ function service() {
       </Container>
     );
   }
-  export default service;
+  export default Service;
